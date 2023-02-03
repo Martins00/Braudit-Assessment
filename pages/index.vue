@@ -1,8 +1,6 @@
 <template>
     <div>
-        <Nav />
-
-        <div class="hero-section grid grid-cols-1 lg:grid-cols-2 lg:p-8 mt-16">
+        <div class="hero-section grid grid-cols-1 lg:grid-cols-2 mt-16">
             <div class="hero-section__left mt-16 items-center">
                 <h2 class="hero-section__header sm:mb-4">Assesments Hub</h2>
                 <p class="hero-section__description">
@@ -24,7 +22,9 @@
 </template>
 
 <script setup>
-
+definePageMeta({
+    layout: 'website'
+})
 </script>
 
 <style lang="scss" scoped>
