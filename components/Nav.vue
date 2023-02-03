@@ -1,7 +1,7 @@
 <template>
-    <div class="nav flex justify-between p-4">
+    <div class="nav flex justify-between">
         <div class="nav__logo text-2xl font-bold items-center">
-            <NuxtLink to="/">Assessment</NuxtLink>
+            <NuxtLink to="/">Assessments</NuxtLink>
         </div>
         
         <ul class="nav__pages flex text-base font-medium items-center">

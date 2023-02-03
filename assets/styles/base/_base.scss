@@ -12,7 +12,7 @@ html {
   --text-sm: 14px;
   --text-md: 16px;
   --text-lg: 24px;
-  --text-xl: 72px;
+  --text-xl: 64px;
 
   @media screen and (max-width: 767px) {
     html {
@@ -21,7 +21,7 @@ html {
         --sm: 8.2px;
         --md: 9px;
         --lg: 9px;
-        --xl: 36.9px;
+        --xl: 20px;
     }
 }
 }
