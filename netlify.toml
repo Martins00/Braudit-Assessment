@@ -1,0 +1,2 @@
+[build.environment]
+API_BASE_URL = 'https://cbt-project-369315.uc.r.appspot.com/api'
