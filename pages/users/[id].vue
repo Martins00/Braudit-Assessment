@@ -7,6 +7,9 @@
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'dashboard'
+})
 const { id } = useRoute().params
 const uri = 'https://jsonplaceholder.typicode.com/users/' + id
 

@@ -4,7 +4,7 @@
             Below, is a list of some of our most loyal users
         </h2>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div v-for="user in users">
                 <UsersUserData :user="user" />
             </div> 

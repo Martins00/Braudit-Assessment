@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss">
 html {
-    // padding: 1rem;
+    padding: 1rem;
     font-family: poppins;
     color: var(--primary-color);
     background-color: var(--primary-bg);
