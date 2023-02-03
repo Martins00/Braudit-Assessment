@@ -3,7 +3,14 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: "Braudit Assessment",
-            link: [{ rel: "icon", href: "/favicon.png" }],
+            link: [
+                { rel: "icon", href: "/favicon.png" },
+                {
+                    rel: "stylesheet",
+                    href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+                },
+            ],
+
         },
     },
     ssr: false,

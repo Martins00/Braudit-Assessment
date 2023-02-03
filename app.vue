@@ -26,4 +26,10 @@
 
 <style lang="scss">
 @import "assets/styles/main";
+
+html {
+  font-family: poppins;
+  color: var(--primary-color);
+  background-color: var(--primary-bg);
+}
 </style>
