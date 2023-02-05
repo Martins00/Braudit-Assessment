@@ -18,13 +18,13 @@ export default {
 
 <style lang="scss">
 html {
-    padding: 1rem;
     font-family: poppins;
     color: var(--primary-color);
     background-color: var(--primary-bg);
 }
 
 .layout-root {
+    padding: 1rem;
     height: 100vh;
     width: 100vw;
     overflow-y: auto;

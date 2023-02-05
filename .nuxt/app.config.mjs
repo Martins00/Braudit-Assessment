@@ -3,6 +3,6 @@ import { defuFn } from '/Users/martins/Desktop/Projects/Braudit-Assessment/node_
 
 const inlineConfig = {}
 
+import cfg0 from "/Users/martins/Desktop/Projects/Braudit-Assessment/app.config.ts"
 
-
-export default defuFn(inlineConfig)
+export default defuFn(cfg0, inlineConfig)

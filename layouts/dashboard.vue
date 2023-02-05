@@ -3,7 +3,7 @@
     <div class="left-panel">
       <Sidebar />
     </div>
-    <div class="right-panel">
+    <div class="right-panel p-10">
       <slot></slot>
     </div>
   </div>
@@ -21,6 +21,9 @@ export default {
   height: 100vh;
   display: grid;
   grid: 1fr / max-content auto;
+  font-family: poppins;
+  color: var(--primary-color);
+  background-color: var(--primary-bg);
   /*gap: 32px;*/
 }
 

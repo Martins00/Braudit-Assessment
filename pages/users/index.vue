@@ -18,5 +18,5 @@ definePageMeta({
 })
 
 //fetch the users
-const { data: users } = await useFetch('https://jsonplaceholder.typicode.com/users')
+const { data: users } = await useFetch(BASE_URL)
 </script>
