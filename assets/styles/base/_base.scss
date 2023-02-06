@@ -1,0 +1,27 @@
+html {
+  //colors
+  --primary-color: #474e52;
+  --primary-bg: #F3F3E7;
+  --primary-button: #919F88;
+  --white: #fff;
+
+
+
+  //text-sizes
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 24px;
+  --text-xl: 64px;
+
+  @media screen and (max-width: 767px) {
+    html {
+        --2xs: 6.52px;
+        --xs: 7.61px;
+        --sm: 8.2px;
+        --md: 9px;
+        --lg: 9px;
+        --xl: 20px;
+    }
+}
+}
