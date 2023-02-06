@@ -2,7 +2,7 @@
     <div>
         <div class="hero-section grid grid-cols-1 lg:grid-cols-2 items-center">
             <div class="hero-section__left mt-16 items-center">
-                <h2 class="hero-section__header sm:mb-4">Assesments Hub</h2>
+                <h2 class="hero-section__header text-xl lg:text-6xl font-bold lg:font-semibold  sm:mb-4">Assesments Hub</h2>
                 <p class="hero-section__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit necesHic,
                     cupiditate. Mapisci error, numquam ducimus et repellendus.
@@ -31,10 +31,6 @@ definePageMeta({
 
 <style lang="scss" scoped>
 .hero-section {
-    &__header {
-        font-size: var(--text-xl);
-        font-weight: 700;
-    }
 
     &__button {
         color: var(--white);
