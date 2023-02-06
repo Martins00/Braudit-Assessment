@@ -1,6 +1,6 @@
 <template>
     <div class="details-page">
-        <h1 class="details-page__header font-bold">Welcome to {{ user?.name }}'s details page</h1>
+        <h1 class="details-page__header text-2xl lg:text-4xl font-semibold mb-4">Welcome to {{ user?.name }}'s details page</h1>
 
         <div class="details-page__detail-container text-2xl font-semibold mt-20">
             <p class="details-page__details">Full name: {{ user?.name }}</p>
@@ -27,7 +27,6 @@ const { data: user } = await useFetch(uri, { key: id.value })
 .details-page {
     &__details {
         margin-bottom: 1.5rem;
-
     }
 }
 </style>

@@ -9,9 +9,11 @@
                     Fugiat sit necesHic,
                     cupiditate. Mapisci error, numquam ducimus et repellendus.
                 </p>
-                <button class="hero-section__button mt-12 py-2 px-12 rounded hover:translate-y-2 duration-500">
-                    <NuxtLink to="/users">Users</NuxtLink>
-                </button>
+                <NuxtLink to="/users">
+                    <button class="hero-section__button mt-12 py-2 px-12 rounded hover:translate-y-2 duration-500">
+                        Users
+                    </button>
+                </NuxtLink>
             </div>
 
             <div class="hero-section__right">

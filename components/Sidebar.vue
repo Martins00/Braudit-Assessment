@@ -1,13 +1,16 @@
 <template>
     <div class="sidebar">
-        <div class="logo text-2xl font-bold mb-24">
-            Assessments
-        </div>
+        <NuxtLink to="/">
+            <div class="logo text-2xl font-bold mb-24">
+                Assessments
+            </div>
+        </NuxtLink>
 
         <nav class="">
             <ul class="nav-list ">
                 <li v-for="link in navList" :key="link.display" class="text-xl font-semibold mb-16">
                     <NuxtLink :to="link.to" active-class="router-link-active"
+                        @click="$emit('close')"
                         :class="{ 'router-link-active': !link.exact && $route.path.startsWith(link.to) }">
                         {{ link.display }}
                     </NuxtLink>
@@ -18,6 +21,7 @@
 </template>
 
 <script setup>
+defineEmits(['close'])
 const { id } = useUserId()
 
 const navList = computed(() => {

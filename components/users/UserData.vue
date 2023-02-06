@@ -11,12 +11,3 @@
 <script setup>
 const { user } = defineProps(['user'])
 </script>
-
-<style lang="scss" scoped>
-.user-card {
-    // color: var(--white);
-    // background-color: var(--primary-button);
-
-    @media screen and (max-width: 767px) {}
-}
-</style>
